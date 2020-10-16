@@ -28,8 +28,8 @@ jobs:
         run: echo Hello, world!
       
       # Runs Crowdin download
-        - name: Run Crowdin download
-          run: ./server.sh
-          # run: ./crowdin/download.sh --crowdin-api-key=873467a6b493835515f63544abe2b65a --github-api-key=27f2c4515fb08e15d2fb65db967f98089f20181b --branch=dev
+      - name: Run Crowdin download
+        run: ./server.sh
+        # run: ./crowdin/download.sh --crowdin-api-key=873467a6b493835515f63544abe2b65a --github-api-key=27f2c4515fb08e15d2fb65db967f98089f20181b --branch=dev
 
       
