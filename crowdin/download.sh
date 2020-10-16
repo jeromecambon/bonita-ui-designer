@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -x
 usage() {
     command=$(basename $0)
     echo ""
