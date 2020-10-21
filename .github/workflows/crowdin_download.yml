@@ -4,6 +4,7 @@ name: Crowdin download
 
 # Controls when the action will run. Triggers the workflow every night
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 4 * * *'
 
